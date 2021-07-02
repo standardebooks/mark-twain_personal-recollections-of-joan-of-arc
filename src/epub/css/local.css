@@ -7,9 +7,9 @@
 }
 
 #halftitlepage p{
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
-	font-variant: small-caps;
 }
 
 #halftitlepage p:nth-of-type(3){
@@ -22,6 +22,31 @@
 
 #foreword p:last-of-type{
 	text-align: right;
+}
+
+#chapter-2-14 blockquote > header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#chapter-2-35 div{
+	border: 2px solid;
+	margin: 1em auto;
+	padding: 1em 0;
+	text-align: center;
+	text-indent: 0;
+	width: 15em;
+}
+
+#chapter-2-35 div > p{
+	text-indent: 0;
+}
+
+#chapter-2-35 div > p:first-of-type{
+	font-size: 1.25em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
 }
 /* end of location-specific */
 
