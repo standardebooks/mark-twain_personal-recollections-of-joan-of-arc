@@ -1,6 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
 /* location-specific */
 #halftitlepage b{
 	font-size: 1.25em;
@@ -57,8 +61,7 @@
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
+[epub|type~="epigraph"] em{
 	font-style: normal;
 }
 /* End all epigraphs */
