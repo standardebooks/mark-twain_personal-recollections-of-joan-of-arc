@@ -46,13 +46,14 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A fictional biography of Joan of Arc from her early teenage years to her martyrdom.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The essential facts regarding Joan of Arc are well known. A young teenage girl hears voices that tell her she will deliver France from England’s oppression during the Hundred Years War. She manages to take her message to the dauphin, who after some persuasion places her at the head of his army. That army promptly lifts the siege of Orléans, throws the English out of the Loire valley, hands them another significant defeat at Patay, and marches all the way to Reims, where the dauphin is crowned King Charles VII. After an ill-advised and short-lived truce, Joan is captured by the Burgundians, French nobility who have aligned themselves with the English, and they try her for heresy and burn her at the stake.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Twain&lt;/a&gt; first became fascinated with Joan as a teenager. When he finally decided to write a book about her, he researched it for a dozen years and spent two more writing it. It was, in his words, “the best of all my books,” and became his last finished novel. Although a work of fiction, Twain’s research was time well spent: the known facts of Joan’s life, and especially the trial, are very accurate in their depiction. To tell Joan’s story, Twain invented a memoirist, Louis de Conte, a fictionalized version of her real-life page, Louis de Contes. Twain has the fictional de Conte grow up with Joan, and so he is able to tell her story from her early childhood all the way through the trial and execution. The result is the story of one of the great women in history told by one of history’s great storytellers.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2874</dc:source>
 		<dc:source>https://archive.org/details/personalrecollec00clem</dc:source>
 		<dc:source>https://archive.org/details/personalrecollec00v2gclem</dc:source>
-		<meta property="se:production-notes">The transcription was missing italics, theme breaks, and almost all diacritics; these had to be added manually by reviewing each page of the scans.</meta>
+		<meta property="se:production-notes">The transcription was missing italics, theme breaks, and almost all diacritics; these had to be added manually by reviewing each page of the scans; this was also required to find and correct the more than normal transcription errors.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Personal_Recollections_of_Joan_of_Arc</meta>
