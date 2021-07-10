@@ -10,15 +10,9 @@
 	margin-top: 20vh;
 }
 
-/* not tagged with signature since it's just a "title" */
-#foreword p:last-of-type{
+footer{
+	margin-top: 1em;
 	text-align: right;
-}
-
-#preface-2 p:first-of-type{
-	font-variant: small-caps;
-	margin-bottom: 1em;
-	text-align: center;
 }
 
 #halftitlepage b{
@@ -31,57 +25,48 @@
 	text-indent: 0;
 }
 
-#halftitlepage p:nth-of-type(2n+1){
-	text-transform: lowercase;
-}
-
-#halftitlepage p:nth-of-type(4){
-	margin-top: .5em;
-}
-
-#halftitlepage p:nth-of-type(5){
+#halftitlepage p + p{
 	margin-top: 1em;
 }
 
-#chapter-1-2 blockquote header p{
+blockquote header{
 	font-variant: small-caps;
-	margin-bottom: 1em;
+	margin: 1em;
+	text-align: center;
+}
+
+#chapter-1-2 blockquote header p{
 	text-align: center;
 }
 
 #chapter-1-2 blockquote header p:first-of-type{
 	font-size: 1.25em;
-	margin-bottom: .5em;
 }
 
-#chapter-1-2 blockquote header p:last-of-type{
-	text-transform: lowercase;
-}
-
-#chapter-2-14 blockquote > header{
-	font-variant: small-caps;
-	margin-bottom: 1em;
-	text-align: center;
-}
-
-#chapter-2-35 div{
-	border: 2px solid;
-	margin: 1em auto;
+#chapter-2-35 blockquote{
+	border: 1px solid;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 1em 0;
 	text-align: center;
-	text-indent: 0;
 	width: 15em;
 }
 
-#chapter-2-35 div > p{
+#chapter-2-35 blockquote p{
 	text-indent: 0;
 }
 
-#chapter-2-35 div > p:first-of-type{
+#chapter-2-35 blockquote p:first-of-type{
 	font-size: 1.25em;
 	margin-bottom: 1em;
 	text-transform: uppercase;
 }
+
+#chapter-3-24 blockquote{
+	font-style: italic;
+	font-variant: small-caps;
+}
+
 /* end of location-specific */
 
 /* All epigraphs */
@@ -89,11 +74,16 @@
 	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
-	margin-top: 20vh;
 }
 
 [epub|type~="epigraph"] em{
 	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
 }
 /* End all epigraphs */
 
@@ -123,10 +113,6 @@ section[epub|type~="epigraph"] > *{
 
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
-	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
 	}
 }
 /* End full-page epigraphs */
