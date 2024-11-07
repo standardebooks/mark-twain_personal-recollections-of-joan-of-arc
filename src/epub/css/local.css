@@ -16,7 +16,7 @@ footer{
 }
 
 #halftitlepage b{
-	font-size: 1.2em;
+	font-size: larger;
 }
 
 #halftitlepage p{
@@ -40,7 +40,7 @@ blockquote header{
 }
 
 #chapter-1-2 blockquote header p:first-of-type{
-	font-size: 1.25em;
+	font-size: larger;
 }
 
 #chapter-2-35 blockquote{
@@ -57,7 +57,7 @@ blockquote header{
 }
 
 #chapter-2-35 blockquote p:first-of-type{
-	font-size: 1.25em;
+	font-size: larger;
 	margin-bottom: 1em;
 	text-transform: uppercase;
 }
